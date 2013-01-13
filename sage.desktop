@@ -10,6 +10,4 @@ Actions=SageTerminal;
 
 [Desktop Action SageTerminal]
 Name=Open Sage terminal
-Terminal=true
 Exec=gnome-terminal -e /opt/sage-5.5/sage
-OnlyShowIn=Unity
