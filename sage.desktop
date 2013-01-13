@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Sage
+Version=5.5
+Type=Application
+Terminal=true
+Exec=/opt/sage-5.5/sage -n
+
+Icon=/usr/share/icons/sage_logo.png
+Actions=SageTerminal;
+
+[Desktop Action SageTerminal]
+Name=Open Sage terminal
+Terminal=true
+Exec=gnome-terminal -e /opt/sage-5.5/sage
+OnlyShowIn=Unity
