@@ -3,11 +3,12 @@ Name=Sage
 Version=5.5
 Type=Application
 Terminal=true
-Exec=/opt/sage-5.5/sage -n
+Exec=/opt/sage-5.5/sage
 
 Icon=/usr/share/icons/sage_logo.png
-Actions=SageTerminal;
+Actions=SageNotebook;
 
-[Desktop Action SageTerminal]
+[Desktop Action SageNotebook]
 Name=Open Sage terminal
-Exec=gnome-terminal -e /opt/sage-5.5/sage
+Exec=/opt/sage-5.5/sage -n
+#Exec=gnome-terminal -e /opt/sage-5.5/sage
